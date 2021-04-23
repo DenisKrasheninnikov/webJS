@@ -1,0 +1,25 @@
+#main {
+	padding: 10px;
+	width: 210px;		
+}
+
+#one, #two, #three, #four {
+	width: 100px;
+	height: 100px;
+}
+
+#one, #three {
+	float: left;
+}
+
+#two, #four {
+	margin-left: 110px;
+}
+
+#one, #two {
+	margin-bottom: 10px;
+}
+
+#three {
+	background: repeating-linear-gradient(90deg, #DF0000, #DF0000 10px, #000000 10px, #000000 20px)
+}
